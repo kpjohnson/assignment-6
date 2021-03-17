@@ -6,15 +6,12 @@ output:
   pdf_document: 
     latex_engine: xelatex
     number_sections: true
-mainfont: Arial
 documentclass: report
 linestretch: 1.5
 fontsize: 11pt
 toc: TRUE
 toc-depth: 2
 header-includes:
-  - \usepackage{lineno}
-  - \linenumbers
   - \usepackage{fancyhdr}
   - \pagestyle{fancy}
   - \fancyhead[LO,LE]{Privitera-Johnson}
